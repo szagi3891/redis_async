@@ -5,7 +5,7 @@ authors = ["Grzegorz Szeliga <szeligagrzegorz@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-#redis = "0.15.1"
+redis = "0.16.0"
 tokio = { version = "0.2.20", features = ["full"] }
 futures-util = "0.3.4"
 smol = { version = "0.1", features = ["tokio02"] }
@@ -13,5 +13,5 @@ smol = { version = "0.1", features = ["tokio02"] }
 redis-async = "0.6.2"
 futures = "0.3.4"
 
-[dependencies.redis]
-git = "https://github.com/mitsuhiko/redis-rs.git"
+#[dependencies.redis]
+#git = "https://github.com/mitsuhiko/redis-rs.git"
